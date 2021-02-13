@@ -23,6 +23,7 @@ function App() {
         onChange={(e) => setQuery(e.target.value)}
         onKeyPress={search}
       />
+
       {weather.main && (
         <div className="city">
           <h2 className="city-name">
